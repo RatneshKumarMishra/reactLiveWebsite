@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  font-weight:bold;
+  color: red;
+}
+.brand-name{
+  font-weight:bold;
+  
+  color: #ff3c00
+}
+.header{
+  font-weight:bold;
+  color:#ff0000
+  
+}
+.brand{
+  color: red;
+}
+.box{
+
+  width: 100%; 
+  position: relative;
+
+  
+}
+.box img{
+  height: auto;
+  
+}
+.content{
+  color:#ffff;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0;
+  left:-100%;
+  width: 100%;
+  height: 100%;
+  padding:20px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+
+}
+.box:hover .content{
+  left: 0;
+}
+.ox{
+  width: 95px;
+  margin: 0 auto;
+  position: relative;
+}
+.ox .ox-pic{
+ position: relative;
+ transition: all 0.5s;
+ transform-origin: 95% 50% 0;
+ z-index: 1;
+
+}
+.ox .ox-pic:after{
+ 
+  content: "";
+  position: absolute;
+  top: 50% ;
+  left: 95%;
+  width:6px;
+  height: 6px;
+  background-color:black;
+  border-radius: 50%;
+
+}
+.ox .ox-pic img{
+  border-radius: 50%;
+  
+
+}
+.ox:hover .ox-pic{
+  transform: rotate(-140deg);
+ 
+}
+.ox .ox-content{
+  text-align: center;
+  align-items:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:brown;
+  border-radius: 50%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color:#ffff;
+  
+
+}
+.oxx{
+  
+ margin:  auto;
+ position: relative;
+ overflow: hidden;
+}
+.oxx img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+.oxx:hover img {
+  transform:scale(0);
+}
+.oxx .oxx-content {
+  background-color:blue;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  transform:scale(0) rotate(-180deg);
+  opacity: 0;
+  transition: all 0.5s;
+
+}
+.oxx:hover .oxx-content {
+  opacity: 1;
+  transform:scale(1) rotate(0deg);
+  transition-delay: 0.2s;
+}
+
