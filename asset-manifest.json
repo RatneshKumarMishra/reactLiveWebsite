@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactLiveWebsite/static/css/main.15d9e322.chunk.css",
+    "main.js": "/reactLiveWebsite/static/js/main.db26a3c3.chunk.js",
+    "main.js.map": "/reactLiveWebsite/static/js/main.db26a3c3.chunk.js.map",
+    "runtime-main.js": "/reactLiveWebsite/static/js/runtime-main.36b838bd.js",
+    "runtime-main.js.map": "/reactLiveWebsite/static/js/runtime-main.36b838bd.js.map",
+    "static/css/2.c490997a.chunk.css": "/reactLiveWebsite/static/css/2.c490997a.chunk.css",
+    "static/js/2.7bc490de.chunk.js": "/reactLiveWebsite/static/js/2.7bc490de.chunk.js",
+    "static/js/2.7bc490de.chunk.js.map": "/reactLiveWebsite/static/js/2.7bc490de.chunk.js.map",
+    "index.html": "/reactLiveWebsite/index.html",
+    "static/css/2.c490997a.chunk.css.map": "/reactLiveWebsite/static/css/2.c490997a.chunk.css.map",
+    "static/css/main.15d9e322.chunk.css.map": "/reactLiveWebsite/static/css/main.15d9e322.chunk.css.map",
+    "static/js/2.7bc490de.chunk.js.LICENSE.txt": "/reactLiveWebsite/static/js/2.7bc490de.chunk.js.LICENSE.txt",
+    "static/media/mohit.d9f56641.jpg": "/reactLiveWebsite/static/media/mohit.d9f56641.jpg",
+    "static/media/myweb.1833b98f.jpg": "/reactLiveWebsite/static/media/myweb.1833b98f.jpg",
+    "static/media/taj.f74b832e.jpg": "/reactLiveWebsite/static/media/taj.f74b832e.jpg",
+    "static/media/taj2.5567dd14.jpg": "/reactLiveWebsite/static/media/taj2.5567dd14.jpg",
+    "static/media/vid1.d7de021d.mp4": "/reactLiveWebsite/static/media/vid1.d7de021d.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36b838bd.js",
+    "static/css/2.c490997a.chunk.css",
+    "static/js/2.7bc490de.chunk.js",
+    "static/css/main.15d9e322.chunk.css",
+    "static/js/main.db26a3c3.chunk.js"
+  ]
+}
